@@ -15,6 +15,10 @@ public class NumberUtils {
         return a * b;
     }
 
+    public static double division(double a, double b) {
+        return a / b;
+    }
+
     // Par/impar
     public static boolean isEven(int n) {
         return n % 2 == 0;
